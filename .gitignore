@@ -40,3 +40,7 @@ next-env.d.ts
 *.class
 *.lst
 *.jar
+
+# PWA
+.next
+sw.js.map
