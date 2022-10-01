@@ -42,4 +42,5 @@ next-env.d.ts
 *.jar
 
 # PWA
-*.map
+.next
+sw.js.map
