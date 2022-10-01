@@ -1,0 +1,28 @@
+# 해당 spring boot 서버를 몇 번 포트 번호로 띄울 것인지에 대한 설정
+server:
+    port: 9898
+
+# DB Connection 관련 설정. 현재 아이디어 톤에서는 필요없어 주석 처리
+# spring:
+#     datasource:
+#         hikari:
+#             connectionTimeout: 20000
+#             maximumPoolSize: 5
+#         driverClassName: org.postgresql.Driver
+#         url: jdbc:postgresql://localhost:5432/nifi
+#         username: nifi
+#         password: nifi123!
+
+# graphQL 관련 설정. 현재 아이디어 톤에서는 필요없어 주석 처리
+# graphql:
+#     path: /graphql
+#     cors:
+#       allowed-origins: https://localhost:9898/
+#       allowed-methods: GET, POST
+
+
+# DB 연결 시 mybatis 관련 설정. 현재 아이디어 톤에서는 필요없어 주석 처리
+# mabatis:
+#     type-aliases-package: com.example.demo.domain
+#     configuration:
+#         map-underscore-to-camel-case: true #auto change snake_case to camelCase
