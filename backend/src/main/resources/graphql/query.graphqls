@@ -1,0 +1,9 @@
+type User {
+    name: String!
+    gender: String!
+    address: String!
+}
+
+type Query {
+    getUsersPlz: [User]
+}
