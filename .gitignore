@@ -42,5 +42,5 @@ next-env.d.ts
 *.jar
 
 # PWA
-.next
-sw.js.map
+frontend/.next/
+frontend/public/sw.js/
